@@ -24,7 +24,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
->>>
+```
 from django.db import models
 from django.contrib import admin
 class Movie (models.Model):
@@ -39,7 +39,9 @@ class Movie (models.Model):
  
 class MovieAdmin(admin.ModelAdmin):
     list_display=('user_id','name','moviename','no_of_seats','date')
->>>
+```
+
+
 
 
 
